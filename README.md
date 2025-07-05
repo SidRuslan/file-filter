@@ -17,7 +17,7 @@ file-filter-1.0-jar-with-dependencies.jar
 
 2. Запуск утилиты
 Базовый вариант:
-java -jar target/file-filter-1.0-jar-with-dependencies.jar файл1.txt файл2.txt
+java -jar "file-filter-1.0-jar-with-dependencies.jar" файл1.txt файл2.txt
 
 Параметры запуска:
 -o <путь>	Путь для выходных файлов (по умолчанию: текущая директория)
@@ -28,10 +28,10 @@ java -jar target/file-filter-1.0-jar-with-dependencies.jar файл1.txt фай�
 
 Примеры использования:
 Пример 1: Базовая фильтрация
-java -jar target/file-filter-1.0-jar-with-dependencies input.txt
+java -jar "file-filter-1.0-jar-with-dependencies.jar" input.txt
 
 Пример 2: С префиксом и в другую папку
-java -jar target/file-filter-1.0-jar-with-dependencies -o output -p result_ input.txt
+java -jar "file-filter-1.0-jar-with-dependencies.jar" -o output -p result_ input.txt
 
 Пример 3: С полной статистикой
-java -jar target/file-filter-1.0-jar-with-dependencies -f input.txt
+java -jar "file-filter-1.0-jar-with-dependencies.jar" -f input.txt
